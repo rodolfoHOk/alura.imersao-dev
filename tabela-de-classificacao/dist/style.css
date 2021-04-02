@@ -1,0 +1,98 @@
+* {
+    text-align: center;
+}
+
+body {
+    font-family: 'Roboto Mono', monospace;
+    background-image: url('https://cdn-1.motorsport.com/images/amp/YEQWx71Y/s6/sebastian-vettel-ferrari-sf100.jpg');
+    background-color: #111;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+}
+
+.page-title {
+    color: #0000ff;
+    margin: 0 0 5px;
+}
+
+.page-subtitle {
+    color: #0000ff;
+    margin-top: 5px;
+}
+
+.page-logo {
+    width: 200px;
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+}
+
+.alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+table {
+    border: 2px solid white;
+    border-collapse: collapse;
+    background-color: #00000099;
+}
+
+h1 {
+    color: red;
+}
+
+h2 {
+    font-size: 18px;
+    color: white;
+    text-align: left;
+    margin-left: 15px;
+}
+
+.add-corredor {
+  background-color: #00000099;
+  border: 2px solid white;
+  border-radius: 6px;
+  padding: 10px;
+  max-width: 450px;
+  margin: auto;
+  margin-right: 0;
+}
+
+th, tr, td {
+    border: solid 1px white;
+    color: white;
+}
+
+  input {
+    margin: 2px 2px;
+    padding: 5px 5px;
+    border-radius: 4px;
+    width: 150px;
+  }
+  
+  button {
+    border: 0;
+    color: #ffffff;
+    background: #DA1E26;
+    margin: 2px 2px;
+    padding: 8px 8px;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: .3s;
+  }
+  
+  button:hover {
+    opacity:.8;
+  }

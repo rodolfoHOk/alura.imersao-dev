@@ -1,0 +1,78 @@
+body {
+    font-family: 'Roboto Mono',monospace;
+    min-height: 854px;
+    background-color: #ffffff;
+    background-size: 100vh;
+    background-repeat: repeat;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+  }
+  
+  .page-title {
+    color: #0000ff;
+    margin: 0 0 5px;
+  }
+  
+  .page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+  }
+  
+  .page-logo {
+    position: absolute;
+    bottom: 10px;
+    left: 10px; 
+    width: 150px;
+    background-color: #0000FF;
+  }
+  
+  .calculadora {
+    width: 264px;
+    height:360px;
+    background-image: url('https://super.abril.com.br/wp-content/uploads/2018/07/57113eb00e2163161501025cpokemon21.jpeg');
+    margin: 0 auto;
+    position: relative;
+  }
+  
+  h2 {
+    color: blue;
+    position: absolute;
+    font-size:50px;
+    font-weight:bold;
+    top: 85px;
+    left: calc(75% - 72.5px);
+    width: 145px;
+    text-align:center;
+  }
+
+  h3 {
+    color:red;
+    position:absolute;
+    font-size:30px;
+    font-weight:bold;
+    top: 175px;
+    left: calc(65% - 72.5px);
+    text-align:center;
+  }
+
+  h4 {
+    color:red;
+    position:absolute;
+    font-size:30px;
+    font-weight:bold;
+    top: 200px;
+    left: calc(65% - 72.5px);
+    text-align:center;
+  }
+  
+  .alura-logo {
+    background-color: #0000FF;
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right:10px;
+  }
